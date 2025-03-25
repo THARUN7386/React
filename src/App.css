@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container.dark{
+  background-color: black;
+  color: aliceblue;
+}
+.container.dark.toggle-btn{
+  background-color: rgb(31, 96, 115);
+}
+p{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+}
